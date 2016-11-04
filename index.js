@@ -22,8 +22,9 @@ function breakOut(array, changeValue, stopValue) {
       if (findFn(array[i])) {
         return array[i]
       }
+      return null  
     }
-    return null
+
   }
 
 // findBy(["dog", "cat", "cow"], a => a === "moose")
